@@ -1,0 +1,147 @@
+{
+    "feature_columns": [
+        "gender",
+        "SeniorCitizen",
+        "Partner",
+        "Dependents",
+        "tenure",
+        "PhoneService",
+        "PaperlessBilling",
+        "MonthlyCharges",
+        "TotalCharges",
+        "MultipleLines_No",
+        "MultipleLines_No phone service",
+        "MultipleLines_Yes",
+        "InternetService_DSL",
+        "InternetService_Fiber optic",
+        "InternetService_No",
+        "OnlineSecurity_No",
+        "OnlineSecurity_No internet service",
+        "OnlineSecurity_Yes",
+        "OnlineBackup_No",
+        "OnlineBackup_No internet service",
+        "OnlineBackup_Yes",
+        "DeviceProtection_No",
+        "DeviceProtection_No internet service",
+        "DeviceProtection_Yes",
+        "TechSupport_No",
+        "TechSupport_No internet service",
+        "TechSupport_Yes",
+        "StreamingTV_No",
+        "StreamingTV_No internet service",
+        "StreamingTV_Yes",
+        "StreamingMovies_No",
+        "StreamingMovies_No internet service",
+        "StreamingMovies_Yes",
+        "Contract_Month-to-month",
+        "Contract_One year",
+        "Contract_Two year",
+        "PaymentMethod_Bank transfer (automatic)",
+        "PaymentMethod_Credit card (automatic)",
+        "PaymentMethod_Electronic check",
+        "PaymentMethod_Mailed check"
+    ],
+    "category_options": {
+        "MultipleLines": [
+            "No",
+            "No phone service",
+            "Yes"
+        ],
+        "InternetService": [
+            "DSL",
+            "Fiber optic",
+            "No"
+        ],
+        "OnlineSecurity": [
+            "No",
+            "No internet service",
+            "Yes"
+        ],
+        "OnlineBackup": [
+            "No",
+            "No internet service",
+            "Yes"
+        ],
+        "DeviceProtection": [
+            "No",
+            "No internet service",
+            "Yes"
+        ],
+        "TechSupport": [
+            "No",
+            "No internet service",
+            "Yes"
+        ],
+        "StreamingTV": [
+            "No",
+            "No internet service",
+            "Yes"
+        ],
+        "StreamingMovies": [
+            "No",
+            "No internet service",
+            "Yes"
+        ],
+        "Contract": [
+            "Month-to-month",
+            "One year",
+            "Two year"
+        ],
+        "PaymentMethod": [
+            "Bank transfer (automatic)",
+            "Credit card (automatic)",
+            "Electronic check",
+            "Mailed check"
+        ]
+    },
+    "num_cols": [
+        "tenure",
+        "MonthlyCharges",
+        "TotalCharges"
+    ],
+    "best_model_name": "SVM",
+    "results": [
+        {
+            "Model": "SVM",
+            "Accuracy": 0.8042704626334519,
+            "Precision": 0.7942651596951131,
+            "Recall": 0.8042704626334519,
+            "F1-Score": 0.7960062835271722
+        },
+        {
+            "Model": "Logistic Regression",
+            "Accuracy": 0.802846975088968,
+            "Precision": 0.7930083156321168,
+            "Recall": 0.802846975088968,
+            "F1-Score": 0.7950090244001073
+        },
+        {
+            "Model": "XGBoost",
+            "Accuracy": 0.7814946619217081,
+            "Precision": 0.7703352343495788,
+            "Recall": 0.7814946619217081,
+            "F1-Score": 0.7735985754702283
+        },
+        {
+            "Model": "Random Forest",
+            "Accuracy": 0.7765124555160142,
+            "Precision": 0.7621500638364918,
+            "Recall": 0.7765124555160142,
+            "F1-Score": 0.7652155103365069
+        },
+        {
+            "Model": "KNN",
+            "Accuracy": 0.7629893238434163,
+            "Precision": 0.7531379221385588,
+            "Recall": 0.7629893238434163,
+            "F1-Score": 0.7568639445433769
+        },
+        {
+            "Model": "Decision Tree",
+            "Accuracy": 0.7117437722419929,
+            "Precision": 0.7216267707813234,
+            "Recall": 0.7117437722419929,
+            "F1-Score": 0.7161495053009673
+        }
+    ]
+}
